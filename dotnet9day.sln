@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubModels", "src\github-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalModels", "src\local-models\LocalModels.csproj", "{1E4AD5F3-B80E-4545-B3CD-2F5D20218A3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TensorSample", "src\tensors\TensorSample.csproj", "{2A7FA891-8D26-4AA9-AC63-828AA7CF8B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenizerSample", "src\tokenizers\TokenizerSample.csproj", "{2C8ABBC2-DC3A-4C9B-B27F-C010C0002F6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{1E4AD5F3-B80E-4545-B3CD-2F5D20218A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E4AD5F3-B80E-4545-B3CD-2F5D20218A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E4AD5F3-B80E-4545-B3CD-2F5D20218A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7FA891-8D26-4AA9-AC63-828AA7CF8B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7FA891-8D26-4AA9-AC63-828AA7CF8B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7FA891-8D26-4AA9-AC63-828AA7CF8B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7FA891-8D26-4AA9-AC63-828AA7CF8B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8ABBC2-DC3A-4C9B-B27F-C010C0002F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8ABBC2-DC3A-4C9B-B27F-C010C0002F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8ABBC2-DC3A-4C9B-B27F-C010C0002F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8ABBC2-DC3A-4C9B-B27F-C010C0002F6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A0915E6D-635E-4619-B148-781378355282} = {CC79806C-4CD9-4C65-9552-AE00532910D8}
 		{1E4AD5F3-B80E-4545-B3CD-2F5D20218A3D} = {CC79806C-4CD9-4C65-9552-AE00532910D8}
+		{2A7FA891-8D26-4AA9-AC63-828AA7CF8B01} = {CC79806C-4CD9-4C65-9552-AE00532910D8}
+		{2C8ABBC2-DC3A-4C9B-B27F-C010C0002F6A} = {CC79806C-4CD9-4C65-9552-AE00532910D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F23B121-B7F6-4EDC-ACDC-72FA36D0B320}
