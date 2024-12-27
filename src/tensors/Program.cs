@@ -24,7 +24,7 @@ var similarGamesTensors =
         .OrderByDescending(game => game.Similarity) // Order the games by similarity in descending order
         .Take(3); // Take the top 3 most similar games
 
-// Print the top 3 most similar movies
+// Print the top 3 most similar games by genre
 foreach (var game in similarGamesTensors)
 {
     Console.WriteLine(game);
